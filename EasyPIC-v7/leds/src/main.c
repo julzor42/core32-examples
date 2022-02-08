@@ -14,7 +14,6 @@ void Program(Task_t* task)
     {
       case TASK_START:
       {
-        PMCON = 0;
         ADC_SetDigital(PINS_ALL);
         InitializePort(PortA);
         InitializePort(PortB);
